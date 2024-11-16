@@ -1,15 +1,19 @@
 {
   "expo": {
-    "name": "maneast_react_main",
-    "slug": "maneast_react_main",
+    "name": "man",
+    "slug": "man",
+    "scheme": "man",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
+    },
+    "extra": {
+      "supportsRTL": true,
+      "forcesRTL": true
     },
     "android": {
       "adaptiveIcon": {
