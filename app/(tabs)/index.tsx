@@ -11,9 +11,9 @@ export default function HomeScreen() {
         await I18nManager.allowRTL(true);
         await I18nManager.forceRTL(true);
 
-        RNRestart.Restart();
-
         console.log('I18nManager', I18nManager.isRTL, I18nManager.getConstants());
+
+        RNRestart.Restart();
     };
 
     rtl();
